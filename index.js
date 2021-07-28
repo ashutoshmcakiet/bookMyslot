@@ -123,10 +123,14 @@ function textPopFun()
         }
 }
 window.addEventListener("scroll",textPopFun,false);
-function comeFun()
+function logFun()
 {
-    window.open("Commingsoon.html","_blink");
+    window.open("login.html","_blink");
+}
+function signFun()
+{
+    window.open("sigin.html","_blink");
 }
 var btnLogin=document.getElementById("btn-login");
-btnLogin.addEventListener("click",comeFun,false);
-document.getElementById("btn-signUp").addEventListener("click",comeFun,false);
+btnLogin.addEventListener("click",logFun,false);
+document.getElementById("btn-signUp").addEventListener("click",signFun,false);
